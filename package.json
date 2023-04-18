@@ -1,0 +1,31 @@
+{
+  "name": "watermark-find-rect",
+  "version": "0.0.1-beta",
+  "license": "MIT",
+  "description": "Watermark find rect position and size",
+  "author": {
+    "name": "Anderson Denis da Rosa",
+    "email": "andersondrosa@outlook.com"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist | tsc",
+    "dev": "tsnd -r tsconfig-paths/register --exit-child --respawn --transpile-only --ignore-watch node_modules --no-notify dev/index.ts",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "eslint": "^8.37.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.0.3"
+  },
+  "files": [
+    "dist"
+  ]
+}
