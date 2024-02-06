@@ -84,10 +84,6 @@ export const getRect = (
       x = width / 2 - w / 2;
       y = marginPx;
       break;
-    case "top":
-      x = width / 2 - w / 2;
-      y = height / 2 - h / 2;
-      break;
     case "top-right":
       x = width - w - marginPx;
       y = marginPx;
