@@ -33,7 +33,7 @@ Essa implementação permite uma inserção precisa e flexível de marcas d'águ
 ```typescript
 import AWS from 'aws-sdk';
 import sharp from 'sharp';
-import { getRect, Logo, Options, Rect } from './getRect';
+import { getRect, Logo, Options, Rect } from 'watermark-find-rect';
 
 // Configuração do AWS S3
 const s3 = new AWS.S3({
