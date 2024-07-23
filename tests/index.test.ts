@@ -1,6 +1,6 @@
 import { getRect } from "../src";
 
-describe("test", () => {
+describe("Main", () => {
   //
   it("Should match equal", () => {
     //
